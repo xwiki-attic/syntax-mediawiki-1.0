@@ -81,6 +81,14 @@
             <exclude>**/components.txt</exclude>
             <!-- Exclude *.dtd files since they're not under XWiki's license headers -->
             <exclude>**/*.dtd</exclude>
+            <!-- Exclude Rendering Test Data files -->
+            <exclude>**/*.test</exclude>
+            <exclude>**/*.in.*txt</exclude>
+            <exclude>**/*.out.txt</exclude>
+            <exclude>**/*.inout.txt</exclude>
+            <exclude>**/*.in.*xml</exclude>
+            <exclude>**/*.out.xml</exclude>
+            <exclude>**/*.inout.xml</exclude>
           </excludes>
         </configuration>
       </plugin>
